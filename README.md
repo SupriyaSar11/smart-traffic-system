@@ -80,21 +80,14 @@ The system follows a three-layer architecture:
 
 ---
 
-##  Screenshots
+## Future Scope
 
-![alt text][def]
+1. AI-Based Traffic Prediction : Integrate machine learning models to predict traffic congestion in advance and automatically optimize signal timings for smoother traffic flow.
 
+2. Real-Time Data Integration : Connect the system with live traffic sensors, CCTV cameras, and IoT devices to enable real-time monitoring and faster decision-making.
 
-## Installation and Setup
+3. Emergency Vehicle Priority System : Implement automatic signal clearance for ambulances, fire trucks, and police vehicles to reduce response time during emergencies.
 
-### Backend Setup
+4. Smart City Integration : Extend the system to integrate with smart city infrastructure, enabling centralized monitoring and analytics across multiple traffic junctions.
 
-```bash
-cd fog-prototype/gateway
-venv\Scripts\activate
-uvicorn app.main:app --reload
-
-
-
-
-[def]: image.png
+5. Mobile Application & User Dashboard : Develop a mobile app and advanced dashboard to provide real-time traffic updates, route suggestions, and alerts to commuters and traffic authorities.
